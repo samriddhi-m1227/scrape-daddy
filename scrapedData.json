@@ -1,0 +1,119 @@
+{
+  "headings": [
+    "The World's Fastest and most Cost-effective Web Scraping API",
+    "HTML/ Markdown/ PDF",
+    "A Simple API that returns Markdown, HTML & PDF",
+    "JS execution + residential ipS",
+    "Web-pages rendered in a browser",
+    "unparalleled speed + PARALLEL EXECUTIONS ;)",
+    "Need to scale your scraping? Need to do it fast?",
+    "Coming soon:",
+    "batch executions + Multi depth",
+    "Scale at another level",
+    "You only pay what you see",
+    "Frequently asked questions"
+  ],
+  "paragraphs": [
+    "Experience unparalleled speed with a Web Scraping API delivering results in 2-6 seconds, at an unbeatable price.  It avoids all bot detection and can parallelize up to 100K requests in minutes",
+    "You'll be in good company: More than 75% of the paying customers are YC backed",
+    "Gumloop (W24), Leya AI (W24), Openmart (W24), Khoj (S23) are backed by",
+    "Pass the URL in the call to the API and it will automatically retrieve the HTML, Markdown, PDF, or plain text of the page. With transformers, you can also decide to extract only important content.",
+    "Full JS support with the V8 Chrome engine is the norm, as well as residential IP addresses.",
+    "The API is fast out-of-the-box. But you can also run up to 70 parallel concurrent threads to 70X your scraping speed. For enterprise need you can use Batch Executions and get 20k requests handled in a few minutes",
+    "With Batch Executions, you can scrape 20k pages in around 2-3 minutes. You can then run up to 5 threads of Batch Executions and get 100k scrapes in the same amount of time. That's 1 million requests in around 20 minutes.Multi-depth crawling will enable you to recursively scrape linked content up to a certain depth (useful for doc websites).",
+    "No hidden fees and hard-to-calculate CPU overprice.We're still finalizing our pricing, so it may change. Short version: we'll be very competitive.‍If you are getting a cheaper price somewhere else or need a special discount let us know at info@olostep and we will do our best to help you.‍You can test it out for free by clicking on: Get free test API keys",
+    "Have other questions? Get in touch via info@olostep.com",
+    "We only charge for successful requests. Moreover we are developing an in-built fallback systems to make the product more reliable",
+    "Yes, the API can scale up to millions of requests per day",
+    "You can pay using the Stripe Payment Links.",
+    "You can scrape data from any website that is publicly accessible",
+    "Because it's fast, reliable and cost-effective (94% cheaper than existing solutions). You can request the features you need and we will try to build them for you. Plus you can test it for free for as long as you want to see if it fits your need. Get your free API keys from here.",
+    "Yes, plans are pro-rated, meaning if you've already paid for a previous plan, that amount will be credited to your next plan. You won't have to pay again for what you've already covered.",
+    "Yes. Just click on the \"Get free test API keys\" and schedule a call. We'll provide you with some test API keys  and help you get up and running so you can test the product until you love it.",
+    "We’re fully committed to building products that you love. If for whatever reason you’re unsatisfied with the Olostep API, please email us at info@olostep.com to receive a full refund within a few hours. We'll also refund you if it doesn't turn out being useful. If you decide to use it but only after a certain period of time, we'll refund the time you don't use it.",
+    "The API returns a defaultDatasetId (for future retrievals), the Markdown and the HTML of the page. You can also retrieve JSON, if requested.",
+    "Olostep can be used by anyone who needs to interact and retrieve data from the web in a fast, scalable and cost-effective way. It's especially useful for startups building in the AI space like AI agents or LLMs fine-tuned on a specific dataset"
+  ],
+  "links": [
+    {
+      "href": "https://www.olostep.com/#",
+      "text": ""
+    },
+    {
+      "href": "https://github.com/olostep/OlostepExt",
+      "text": "We're Open Source"
+    },
+    {
+      "href": "https://www.olostep.com/#section-pricing",
+      "text": "Pricing"
+    },
+    {
+      "href": "https://docs.olostep.com/get-started/welcome",
+      "text": "Documentation"
+    },
+    {
+      "href": "https://olostep-users.slack.com/join/shared_invite/zt-2bfddyi8h-JzfjOgavg~98DJ1om1B5Lg#/shared-invite/email",
+      "text": "Slack Community"
+    },
+    {
+      "href": "https://p5iqqpnnrjy.typeform.com/to/aq0SOcev",
+      "text": "Get free API keys"
+    },
+    {
+      "href": "https://p5iqqpnnrjy.typeform.com/to/aq0SOcev",
+      "text": "Get free test API keys"
+    },
+    {
+      "href": "https://p5iqqpnnrjy.typeform.com/to/aq0SOcev?typeform-source=www.olostep.com",
+      "text": "Get free test API keys"
+    },
+    {
+      "href": "https://www.olostep.com/#w-tabs-0-data-w-pane-0",
+      "text": "Monthly"
+    },
+    {
+      "href": "https://www.olostep.com/#w-tabs-0-data-w-pane-1",
+      "text": "Yearly (coming soon)"
+    },
+    {
+      "href": "https://buy.stripe.com/00g296bss08yegoaEE",
+      "text": "Purchase now"
+    },
+    {
+      "href": "https://buy.stripe.com/5kA00YgMM2gG0py5kl",
+      "text": "Purchase now"
+    },
+    {
+      "href": "https://buy.stripe.com/fZe152400aNc4FO147",
+      "text": "Purchase now"
+    },
+    {
+      "href": "https://buy.stripe.com/00g296bss08yegoaEE",
+      "text": "Purchase now"
+    },
+    {
+      "href": "https://buy.stripe.com/5kA00YgMM2gG0py5kl",
+      "text": "Purchase now"
+    },
+    {
+      "href": "https://buy.stripe.com/fZe152400aNc4FO147",
+      "text": "Purchase now"
+    },
+    {
+      "href": "mailto:info@olostep.com?subject=I%20have%20a%20less%20frequently%20asked%20question!",
+      "text": "info@olostep.com"
+    },
+    {
+      "href": "https://p5iqqpnnrjy.typeform.com/to/aq0SOcev?typeform-source=www.olostep.com",
+      "text": "here"
+    },
+    {
+      "href": "mailto:info@olostep.com?subject=I%27d%20like%20a%20refund",
+      "text": "info@olostep.com"
+    },
+    {
+      "href": "mailto:info@olostep.com?subject=Olostep%20Web%20Scraper%20API%20Info",
+      "text": "info@olostep.com"
+    }
+  ]
+}

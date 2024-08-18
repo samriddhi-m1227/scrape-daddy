@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ScrapeDaddy</title>
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+            font-size: 16px;
+        }
+
+        nav {
+            background-color: #fff;
+            padding: 1rem;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: fixed;
+            width: 100vw;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+            
+        }
+
+        nav .brand {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #2c3e50;
+            text-decoration: none;
+            margin-left: 15px;
+            display: flex;
+            align-items: center;
+        }
+
+        nav .nav-links {
+            list-style: none;
+            display: flex;
+            margin-right: 15px;
+        }
+
+        nav .nav-links li {
+            margin-left: 15px;
+            padding-right: 10px;
+        }
+
+        nav .nav-links li a {
+            color: #333;
+            text-decoration: none;
+            font-size: 1em;
+            transition: color 0.3s;
+        }
+
+        nav .nav-links li a:hover {
+            color: #3ce778;
+        }
+
+        .hero {
+            margin-top: 2rem;
+            text-align: center;
+            padding: 5rem 1rem 1rem;
+            background-image: url('../images/Home.png');
+            /* Update the path to your background image */
+            background-size: cover;
+            background-position: center;
+            color: black;
+            /* Change to white if your background image is dark */
+            position: relative;
+        }
+
+        .hero h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 1.2em;
+            margin-bottom: 40px;
+        }
+
+        .cta-button {
+            padding: 15px 30px;
+            background-color: #3ce778;
+            color: #2c3e50;
+            border: none;
+            border-radius: 25px;
+            font-size: 1.2em;
+            cursor: pointer;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s, transform 0.3s;
+            text-decoration: none;
+        }
+
+        .cta-button:hover {
+            background-color: #32b367;
+            transform: translateY(-5px);
+        }
+
+        .features {
+            display: flex;
+            justify-content: space-around;
+            padding: 50px 20px;
+            background-color: #fff;
+            margin-top: -100px;
+            border-radius: 20px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            max-width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: -50px;
+        }
+
+        .feature-card {
+            background-color: #f5f5f5;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            flex: 1;
+            margin: 0 15px;
+        }
+
+        .feature-card h3 {
+            font-size: 1.5em;
+            margin-bottom: 15px;
+        }
+
+        .feature-card p {
+            font-size: 1em;
+            color: #666;
+        }
+
+        @media (max-width: 768px) {
+            nav {
+                padding: 0.5rem;
+                width: 100%;
+                font-size: 1rem;
+                
+            }
+
+            nav a {
+                font-size: 1rem;
+                
+            }
+
+            nav ul {
+                font-size: 1rem;
+                
+            }
+
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            .hero p {
+                font-size: 1rem;
+            }
+
+            .features {
+                flex-direction: column;
+                align-items: center;
+                margin-top: 0;
+            }
+
+            .feature-card {
+                margin: 1rem 0;
+            }
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav>
+        <a href="/" class="brand">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search"
+                viewBox="0 0 16 16">
+                <path
+                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+            </svg>ScrapeDaddy
+        </a>
+        <ul class="nav-links">
+            <li><a href="/">Home</a></li>
+            <li><a href="/login">Login</a></li>
+            <li><a href="/register">Register</a></li>
+
+        </ul>
+    </nav>
+
+    <div class="hero">
+        <br>
+        <h1>Effortless Web Scraping</h1>
+        <p>Extract the data you need from any website with ease.</p>
+        <br>
+        <a href="/login" class="cta-button">Start Scraping</a>
+    </div>
+    <br>
+    <br>
+    <div class="features" id="features">
+        <div class="feature-card">
+            <h3>Automated Scraping</h3>
+            <p>Easily scrape data from any website with just a URL—no coding required.</p>
+        </div>
+        <div class="feature-card">
+            <h3>Smart AI Integration</h3>
+            <p>Automatically analyze and categorize your scraped data using a lightweight AI model.</p>
+        </div>
+        <div class="feature-card">
+            <h3>Insight Generation</h3>
+            <p>Easily generate insights from the scraped data, tailored to your specific needs.</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
